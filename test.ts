@@ -7,7 +7,9 @@ const parsedHeadline = cachedHeadline
       daily_report = parsedHeadline.daily_report;
     } else {
       // cache miss OR invalid JSON
-      newHeadline = await generateSimpleAIHeadline(user_profile);
+      newHeadline = await generateSimpleAIHeadline(
+            
+            user_profile);
       daily_report = await getTodaysReportForUser(user_profile._id);
 
       await redisClient?.set(
