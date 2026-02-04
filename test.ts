@@ -4,7 +4,9 @@ const parsedHeadline = cachedHeadline
     // Check if the headline is cached
     if (parsedHeadline) {
       newHeadline = parsedHeadline.headline;
-      daily_report = parsedHeadline.daily_report;
+      daily_report = parsedHeadline.daily_report;ss
+
+          sss
     } else {
       // cache miss OR invalid JSON
       newHeadline = await generateSimpleAIHeadline(asdasdadasdasd
