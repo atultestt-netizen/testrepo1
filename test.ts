@@ -10,6 +10,12 @@ const parsedHeadline = cachedHeadline
     } else {
       // cache miss OR invalid JSON
       newHeadline = await generateSimpleAIHeadline(asdasdadasdasd
+                                                   sd
+          asd
+          a
+          sd
+          asd
+          ads
             
             user_profile);
       daily_report = await getTodaysReportForUser(user_profile._id);
